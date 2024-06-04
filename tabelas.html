@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabelas</title>
+	</head>
+	<body>
+		<header style="background-color: #aac1ff">
+			<h1 style="text-align: center;">Tabelas</h1>
+			<hr/>
+		</header>
+		<main>
+			<article>
+				<h2>Tabela de Notas de um aluno</h2>
+				<table border="1" style="width: 100%">
+					<!-- tr = table row = linha da tabela -->
+					<tr style="background-color: #054f77; color: #FFFFFF"> 
+						<!-- th = table head = cabeçalho da tabela -->
+						<th>Disciplinas</th> 
+						<th>Nota 1</th>
+						<th>Nota 2</th>
+						<th>Nota 3</th>
+						<th>Nota 4</th>
+						<th>Média</th>
+					</tr>
+					<tr>
+						<!-- td = table data = dado da tabela -->
+						<td>Matemática</td> 
+						<td align="right">10</td>
+						<td align="right">9</td>
+						<td align="right">9,5</td>
+						<td align="right">10</td>
+						<th align="center">9,6</th>
+					</tr>
+					<tr>
+						<td>Português</td>
+						<td align="right">10</td>
+						<td align="right">10</td>
+						<td align="right">9,5</td>
+						<td align="right">10</td>
+						<th align="center">9,9</th>
+					</tr>
+					<tr>
+						<td>Programação 1</td>
+						<td rowspan="2" align="right">10</td>
+						<td rowspan="2" align="right">10</td>
+						<td rowspan="2" align="right">10</td>
+						<td rowspan="2" align="right">10</td>
+						<th rowspan="2"  align="center">10</th>
+					</tr>
+					<tr>
+						<td>Programação 2</td>
+					</tr>
+					<tr style="background-color: #054f77; color: #FFFFFF">
+						<th colspan="5" align="center">Média Total</th>
+						<th style="background-image: url('psicologia-das-cores-para-ies.gif')">
+						9,8
+						</th>
+					</tr>
+				</table>
+			</article>
+		</main>
+	</body>
+</html>
+
+
